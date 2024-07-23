@@ -11,5 +11,19 @@
     grid-template-rows: 1fr;
     display: grid;
 }
-
+.element{
+    width: 70%;
+    height: 100%;
+    display: grid;
+}
+.element > :nth-child(1) :nth-child(1){
+    margin-top: 100px;
+    margin-left: 200px;
+    font-size: 30px;
+}
+.element > :nth-child(1) :nth-child(2){
+    margin-top: 30px;
+    margin-left: 150px;
+    font-size: 30px;
+}
 
