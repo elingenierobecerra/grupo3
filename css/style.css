@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    height: 0px;
+}
+.content{
+    width: 100wh;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: white;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 1fr;
+    display: grid;
+}
+
+
